@@ -11,13 +11,13 @@ export const CandidateSchema = z.object({
     years_of_experience: z.number()
 });
 
-const QuestionsSchema = z.array(z.string());
+// const QuestionsSchema = z.array(z.string());
 const SoftSkillsQuestionsSchema = z.array(z.string());
 const TechnicalQuestionsSchema = z.array(z.string());
 
 export const OutputSchema = z.object({
     candidate: CandidateSchema,
-    questions: QuestionsSchema,
+    // questions: QuestionsSchema,
     soft_skills_questions: SoftSkillsQuestionsSchema,
     technical_questions: TechnicalQuestionsSchema
 });

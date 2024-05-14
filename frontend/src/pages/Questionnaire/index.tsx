@@ -37,7 +37,7 @@ const Questionnaire = () => {
 
                 <Box sx={styles.spaceBetween}>
                     <Box sx={styles.image}>
-                        <img src={`https://api.dicebear.com/8.x/fun-emoji/svg?seed=Pooja%20Shinde}`} alt="Profile Image" />
+                        <img src={`https://api.dicebear.com/8.x/initials/svg?seed=Pooja%20Shinde}`} alt="Profile Image" />
                     </Box>
                     <AppButton text="Print" onClick={() => convertToPDF()} />
 
@@ -63,7 +63,7 @@ const Questionnaire = () => {
                 </Box>
 
                 <Box sx={styles.questions}>
-                    <Box>
+                    {/* <Box>
                         <Typography variant="h6" sx={{ backgroundColor: theme.palette.primary.main, padding: "10px 20px", borderRadius: "10px", color: "#ffe" }}>Questions</Typography>
                         {
                             report.questions.map((item, index) => {
@@ -79,7 +79,8 @@ const Questionnaire = () => {
                                 )
                             })
                         }
-                    </Box>                    <Box>
+                    </Box>                   */}
+                      <Box>
                         <Typography variant="h6" sx={{ backgroundColor: theme.palette.primary.main, padding: "10px 20px", borderRadius: "10px", color: "#ffe" }}>Soft Skills Questions</Typography>
 
                         {

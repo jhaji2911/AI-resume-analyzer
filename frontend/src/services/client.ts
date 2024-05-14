@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiInstance = axios.create({
-    baseURL: "https://mighty-ninjha.loca.lt/",
+    baseURL: "http://localhost:3000/",
     headers: {
         "Content-Type": "application/json"
     },

@@ -15,7 +15,7 @@ type IRouteType = {
 }
 
 const headerTiles: IRouteType = {
-    "/": "Analyze Resume / Jd",
+    "/": "AI 🤖 Analyze Resume / Jd",
     "/profiles": "Profiles",
     "/questions": "Questionnaire"
 }

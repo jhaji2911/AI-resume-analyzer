@@ -105,7 +105,7 @@ const AppCard = ({ resumeInfo }: ICard) => {
                             <Box sx={styles.box}>
                                 <Box sx={styles.content}>
                                     <Box sx={styles.image}>
-                                        <img src={`https://api.dicebear.com/8.x/fun-emoji/svg?seed=${resumeInfo.name}`} alt="Profile Image" />
+                                        <img src={`https://api.dicebear.com/8.x/initials/svg?seed=${resumeInfo.name}`} alt="Profile Image" />
                                     </Box>
                                     <Typography sx={styles.title}>{resumeInfo.name}</Typography>
                                     <Box>
